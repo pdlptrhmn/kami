@@ -44,10 +44,10 @@
                                                 <div class="multi-gd-img">
                                                     <ul class="multi-column-dropdown">
                                                         
-                                                        <li><a href="groceries.html">Yamaha</a></li>
-                                                        <li><a href="groceries.html">Honda</a></li>
-                                                        <li><a href="groceries.html">Suzuki</a></li>
-                                                        <li><a href="groceries.html">Kawasaki</a></li>
+                                                        <li><a href="groceries.html">Bebek</a></li>
+                                                        <li><a href="groceries.html">Sport</a></li>
+                                                        <li><a href="groceries.html">Trail</a></li>
+                                                        <li><a href="groceries.html">Vespa</a></li>
                                                         </li>
                                                     </ul>
                                                 </div>  
