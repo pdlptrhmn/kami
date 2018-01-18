@@ -37,7 +37,7 @@ class MerekkController extends Controller
         $html = $htmlBuilder
         ->addColumn(['data'=>'id','name'=>'id', 'title'=>'No'])
         ->addColumn(['data'=>'merek','name'=>'merek', 'title'=>'Merek'])
-        ->addColumn(['data'=>'model','name'=>'model', 'title'=>'Model'])
+        
 
         
 

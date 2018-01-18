@@ -2,17 +2,14 @@
 ')
 @section('content')
     <!-- main-slider -->
-    <div class="container">
+ 
     <div class="col-md-12">
-        <ul>
-            <li>
+        
                 <img src="images/11.jpg" alt="" class="col-md-12" />
                 <!--Slider Description example-->
-                    <h3>Motorcycle Shop</h3>
-            </li>
-        </ul>
+                  
         </div>
-        </div>
+        
     <!-- //main-slider -->
     <!-- //top-header and slider -->
     <!-- top-brands -->

@@ -4,7 +4,7 @@
 	<div class="breadcrumbs">
 		<div class="container">
 			<ol class="breadcrumb breadcrumb1 animated wow slideInLeft" data-wow-delay=".5s">
-				<li><a href="index.html"><span class="glyphicon glyphicon-home" aria-hidden="true"></span>Home</a></li>
+				<li><a href="/"><span class="glyphicon glyphicon-home" aria-hidden="true"></span>Home</a></li>
 				<li class="active">Household</li>
 			</ol>
 		</div>
@@ -15,40 +15,48 @@
 		<div class="container">
 			<div class="col-md-4 products-left">
 				<div class="categories">
-					<h2>Categories</h2>
+					<h2>Kategori</h2>
 					<ul class="cate">
-						<li><a href="products.html"><i class="fa fa-arrow-right" aria-hidden="true"></i>Fruits And Vegetables</a></li>
-							<ul>
-								<li><a href="products.html"><i class="fa fa-arrow-right" aria-hidden="true"></i>Cuts & Sprouts</a></li>
-								<li><a href="products.html"><i class="fa fa-arrow-right" aria-hidden="true"></i>Flowers</a></li>
-								<li><a href="products.html"><i class="fa fa-arrow-right" aria-hidden="true"></i>Fresh Herbs & Seasonings</a></li>
-								<li><a href="products.html"><i class="fa fa-arrow-right" aria-hidden="true"></i>Fresh Vegetables</a> </li>
-								<li><a href="products.html"><i class="fa fa-arrow-right" aria-hidden="true"></i>International Vegetables</a> </li>
-								<li><a href="products.html"><i class="fa fa-arrow-right" aria-hidden="true"></i>Organic Fruits & Vegetables</a></li>
-							</ul>
-						<li><a href="products.html"><i class="fa fa-arrow-right" aria-hidden="true"></i>Grocery & Staples</a></li>
-							<ul>
-								<li><a href="products.html"><i class="fa fa-arrow-right" aria-hidden="true"></i>Dals & Pulses</a> </li>
-								<li><a href="products.html"><i class="fa fa-arrow-right" aria-hidden="true"></i>Dry Fruits</a> </li>
-								<li><a href="products.html"><i class="fa fa-arrow-right" aria-hidden="true"></i>Edible Oils & Ghee</a> </li>
-								<li><a href="products.html"><i class="fa fa-arrow-right" aria-hidden="true"></i>Flours & Sooji</a> </li>
-								<li><a href="products.html"><i class="fa fa-arrow-right" aria-hidden="true"></i>Masalas & Spices</a> </li>
-								<li><a href="products.html"><i class="fa fa-arrow-right" aria-hidden="true"></i>Organic Staples</a> </li>
-								<li><a href="products.html"><i class="fa fa-arrow-right" aria-hidden="true"></i>Rice & Rice Products</a> </li>
-								<li><a href="products.html"><i class="fa fa-arrow-right" aria-hidden="true"></i>Salt, Sugar & Jaggery</a></li>
-							</ul>
-						<li><a href="products.html"><i class="fa fa-arrow-right" aria-hidden="true"></i>PersonalCare</a></li>
-							<ul>
-								<li><a href="products.html"><i class="fa fa-arrow-right" aria-hidden="true"></i>Baby Care</a> </li>
-								<li><a href="products.html"><i class="fa fa-arrow-right" aria-hidden="true"></i>Cosmetics</a> </li>
-								<li><a href="products.html"><i class="fa fa-arrow-right" aria-hidden="true"></i>Deos & Perfumes</a> </li>
-								<li><a href="products.html"><i class="fa fa-arrow-right" aria-hidden="true"></i>Skin Care</a> </li>
-								<li><a href="products.html"><i class="fa fa-arrow-right" aria-hidden="true"></i>Sanitary Needs</a> </li>
-								<li><a href="products.html"><i class="fa fa-arrow-right" aria-hidden="true"></i>Oral Care</a> </li>
-								<li><a href="products.html"><i class="fa fa-arrow-right" aria-hidden="true"></i>Personal Hygiene</a> </li>
-								<li><a href="products.html"><i class="fa fa-arrow-right" aria-hidden="true"></i>Shaving Needs</a></li>
-							</ul>
-					</ul>
+						
+						<li class="dropdown">
+                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Merek Motor<b class="caret"></b></a>
+                                        <ul class="dropdown-menu multi-column columns-3">
+                                            <div class="row">
+                                                <div class="multi-gd-img">
+                                                    <ul class="multi-column-dropdown">
+                                                        
+                                                        <li><a href="groceries.html">Yamaha</a></li>
+                                                        <li><a href="groceries.html">Honda</a></li>
+                                                        <li><a href="groceries.html">Suzuki</a></li>
+                                                        <li><a href="groceries.html">Kawasaki</a></li>
+                                                        </li>
+                                                    </ul>
+                                                </div>  
+                                                
+                                            </div>
+                                        </ul>
+                                    </li>
+
+                                    <li class="dropdown">
+                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Tipe Motor<b class="caret"></b></a>
+                                        <ul class="dropdown-menu multi-column columns-3">
+                                            <div class="row">
+                                                <div class="multi-gd-img">
+                                                    <ul class="multi-column-dropdown">
+                                                        
+                                                        <li><a href="groceries.html">Yamaha</a></li>
+                                                        <li><a href="groceries.html">Honda</a></li>
+                                                        <li><a href="groceries.html">Suzuki</a></li>
+                                                        <li><a href="groceries.html">Kawasaki</a></li>
+                                                        </li>
+                                                    </ul>
+                                                </div>  
+                                                
+                                            </div>
+                                        </ul>
+                                    </li>
+							
+						</ul>
 				</div>																																												
 			</div>
 			<div class="col-md-8 products-right">
@@ -84,7 +92,7 @@
 									<figure>
 										<div class="snipcart-item block">
 											<div class="snipcart-thumb">
-												<a href="single.html"><img title=" " alt=" " src="images/hh1.png"></a>		
+												<a href="single.html"><img title=" " alt=" " width="150px" height="150px" src="images/honda/1.png"></a>		
 												<p>Fry Pan</p>
 												<h4>$35.99 <span>$55.00</span></h4>
 											</div>
@@ -120,7 +128,7 @@
 									<figure>
 										<div class="snipcart-item block">
 											<div class="snipcart-thumb">
-												<a href="single.html"><img title=" " alt=" " src="images/hh2.png"></a>		
+												<a href="single.html"><img title=" " alt=" " width="150px" height="150px" src="images/honda/2.png"></a>		
 												<p>Cookware</p>
 												<h4>$30.99 <span>$45.00</span></h4>
 											</div>
@@ -159,7 +167,7 @@
 									<figure>
 										<div class="snipcart-item block">
 											<div class="snipcart-thumb">
-												<a href="single.html"><img src="images/hh3.png" alt=" " class="img-responsive"></a>
+												<a href="single.html"><img src="images/honda/3.jpg" alt=" " width="150px" height="150px" class="img-responsive"></a>
 												<p>Dosa Tawa</p>
 												<h4>$80.99 <span>$105.00</span></h4>
 											</div>
@@ -198,7 +206,7 @@
 									<figure>
 										<div class="snipcart-item block">
 											<div class="snipcart-thumb">
-												<a href="single.html"><img title=" " alt=" " src="images/hh4.png"></a>		
+												<a href="single.html"><img title=" " alt=" " width="150px" height="150px" src="images/honda/4.jpg"></a>		
 												<p>Flask</p>
 												<h4>$35.99 <span>$55.00</span></h4>
 											</div>

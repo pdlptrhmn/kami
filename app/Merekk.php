@@ -8,7 +8,7 @@ class Merekk extends Model
 {
     //
      protected $fillable = [
-        'merek', 'model'];
+        'merek'];
 
 
     public function Iklan(){
