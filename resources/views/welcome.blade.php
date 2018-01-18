@@ -77,7 +77,7 @@
                                                     <div class="snipcart-item block" >
                                                         <div class="snipcart-thumb">
                                                             <a href="products.html"><img title=" " alt=" " width="150px" height="150px" src="images/honda/2.png" /></a>        
-                                                            <p>Fortune-sunflower</p>
+                                                            <p>Rp.xxx.xxx.xxx.xx,-r</p>
 
                                                             <h4>$20.99 <span>$35.00</span></h4>
                                                         </div>

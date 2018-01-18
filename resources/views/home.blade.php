@@ -8,7 +8,7 @@
                 <div class="panel-heading"><h3>Second Mobil</div>
 
                 <div class="panel-body">
-                    Anda berhasil login!
+                    Selamat datang Admin!!
                 </div>
             </div>
         </div>
