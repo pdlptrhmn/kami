@@ -128,14 +128,11 @@ License URL: http://creativecommons.org/licenses/by/3.0/
         <div class="newsletter">
         <div class="container">
             <div class="col-md-6 w3agile_newsletter_left">
-                <h3>Newsletter</h3>
-                <p>Excepteur sint occaecat cupidatat non proident, sunt.</p>
+                <h3>Motorcycle Shop</h3>
+                <p>Pasti Aman, dan Dipercaya</p>
             </div>
             <div class="col-md-6 w3agile_newsletter_right">
-                <form action="#" method="post">
-                    <input type="email" name="Email" placeholder="Email" required="">
-                    <input type="submit" value="" />
-                </form>
+                
             </div>
             <div class="clearfix"> </div>
         </div>
@@ -155,25 +152,29 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                     </ul>
                 </div>
                 <div class="col-md-3 w3_footer_grid">
-                    <h3>Information</h3>
+                    <h3>Merek</h3>
+                        @php
+                        $merek = App\Merekk::all();
+                        @endphp
                     <ul class="info"> 
-                        <li><a href="about.html">About Us</a></li>
-                        <li><a href="mail.html">Contact Us</a></li>
-                        <li><a href="codes.html">Short Codes</a></li>
-                        <li><a href="faq.html">FAQ's</a></li>
-                        <li><a href="products.html">Special Products</a></li>
+                        @foreach($merek as $data)
+                                <li><a href="{{ url('/merek',$data->merek) }}">{{ $data->merek }}</a></li>
+                        @endforeach             
+                        
                     </ul>
                 </div>
                 <div class="col-md-3 w3_footer_grid">
-                    <h3>Category</h3>
+                    @php
+                        $tipe = App\Tipe::all();
+                        @endphp
+                    <h3>Information</h3>
                     <ul class="info"> 
-                        <li><a href="products.html">Mobiles</a></li>
-                        <li><a href="products1.html">Laptops</a></li>
-                        <li><a href="products.html">Purifiers</a></li>
-                        <li><a href="products1.html">Wearables</a></li>
-                        <li><a href="products2.html">Kitchen</a></li>
+                         @foreach($tipe as $data)
+                                <li><a href="{{ url('/tipe',$data->id) }}">{{ $data->namatipe }}</a></li>
+                                @endforeach
                     </ul>
                 </div>
+                
                 <div class="col-md-3 w3_footer_grid">
                     <h3>Profile</h3>
                     <ul class="info"> 
