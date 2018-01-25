@@ -33,7 +33,7 @@
                     </button>
 
                     <!-- Branding Image -->
-                    <a class="navbar-brand" href="{{ url('/') }}">
+                    <a class="navbar-brand" href="{{ url('/home') }}">
                         {{ config('app.name', 'Iklan Motor') }}
                     </a>
                 </div>
@@ -49,6 +49,7 @@
                     <li><a href="{{ route('Merekk.index') }}">Merek Motor</a></li>
                     <li><a href="{{ route('Pemasang.index') }}">Pemasang iklan</a></li>
                     <li><a href="{{ route('Iklan.index') }}"> iklan</a></li>
+                    <li><a href="{{ ('/foto') }}"> Foto</a></li>
                     
                     @endif
 

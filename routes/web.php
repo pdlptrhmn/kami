@@ -23,6 +23,10 @@ Route::get('/produk', function () {
     return view('tamu.indextamu');
 });
 
+Route::get('/foto', function () {
+    return view('foto.index');
+});
+
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
@@ -35,6 +39,7 @@ Route::group(['prefix'=>'admin', 'middleware'=>['auth','role:admin']], function(
 	Route::resource('Merekk', 'MerekkController');
 	Route::resource('Iklan', 'IklanController');
 	Route::resource('Tipe', 'TipeController');
+	Route::resource('Foto', 'FotoController');
 	Route::resource('Pemasang', 'PemasangController');
 
 });
