@@ -59,7 +59,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
         <div class="container">
            
             <div class="w3l_logo">
-                <h1><a href="/">Motorcycle Shop</a></h1>
+                <h1><a href="/">Motorcycle Shopp</a></h1>
             </div>
             <div class="search">
                 <input class="search_box" type="checkbox" id="search_box">
@@ -90,29 +90,10 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                 </div> 
                 <div class="collapse navbar-collapse" id="bs-megadropdown-tabs">
                     <ul class="nav navbar-nav">
-                        <li><a href="/" class="act">Home</a></li>  
+                        <li><a href="/" >Home</a></li>  
 
-                        <li class="w3pages"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Merek Motor <span class="caret"></span></a>
-                        @php
-                        $merek = App\Merekk::all();
-                        @endphp
-                            <ul class="dropdown-menu">
-                            @foreach($merek as $data)
-                                <li><a href="{{ url('/merek',$data->id) }}">{{ $data->merek }}</a></li>
-                                @endforeach                                     
-                            </ul>
-                        </li>
-
-                        <li class="w3pages"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Tipe Motor<span class="caret"></span></a>
-                        @php
-                        $tipe = App\Tipe::all();
-                        @endphp
-                            <ul class="dropdown-menu">
-                            @foreach($tipe as $data)
-                                <li><a href="{{ url('/tipe',$data->id) }}">{{ $data->namatipe }}</a></li>
-                                @endforeach
-                            </ul>
-                        </li>
+                        <li><a href="/merek">Merek</a></li> 
+                        <li><a href="/tipe">Tipe</a></li> 
                         <li><a href="about.html">About Us</a></li> 
                         <li><a href="mail.html">Mail Us</a></li>
                     </ul>
@@ -129,7 +110,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
         <div class="container">
             <div class="col-md-6 w3agile_newsletter_left">
                 <h3>Motorcycle Shop</h3>
-                <p>Pasti Aman, dan Dipercaya</p>
+                <p>Pasti Aman, dan Terpercaya</p>
             </div>
             <div class="col-md-6 w3agile_newsletter_right">
                 
@@ -158,7 +139,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                         @endphp
                     <ul class="info"> 
                         @foreach($merek as $data)
-                                <li><a href="{{ url('/merek',$data->merek) }}">{{ $data->merek }}</a></li>
+                                <li><a href="{{ url('',$data->merek) }}">{{ $data->merek }}</a></li>
                         @endforeach             
                         
                     </ul>
@@ -170,7 +151,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                     <h3>Information</h3>
                     <ul class="info"> 
                          @foreach($tipe as $data)
-                                <li><a href="{{ url('/tipe',$data->id) }}">{{ $data->namatipe }}</a></li>
+                                <li><a href="{{ url('',$data->namatipe) }}">{{ $data->namatipe }}</a></li>
                                 @endforeach
                     </ul>
                 </div>

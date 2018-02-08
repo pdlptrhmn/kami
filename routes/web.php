@@ -19,8 +19,12 @@ Route::get('/contact', function () {
     return view('tamu.contact');
 });
 
-Route::get('/produk', function () {
-    return view('tamu.indextamu');
+Route::get('/merek', function () {
+    return view('tamu.merek');
+});
+
+Route::get('/tipe', function () {
+    return view('tamu.tipe');
 });
 
 Route::get('/foto', function () {
